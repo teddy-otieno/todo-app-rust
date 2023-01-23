@@ -1,0 +1,7 @@
+-- Your SQL goes here
+
+CREATE TABLE Todo(
+	id SERIAL PRIMARY KEY,
+	item TEXT NOT NULL,
+	done BOOLEAN NOT NULL DEFAULT FALSE
+)
